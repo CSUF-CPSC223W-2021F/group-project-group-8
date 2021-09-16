@@ -15,6 +15,7 @@
 		BA8E176626F3F7FE0083E053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8E176426F3F7FE0083E053 /* LaunchScreen.storyboard */; };
 		BA8E177126F3F7FE0083E053 /* SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E177026F3F7FE0083E053 /* SchedulerTests.swift */; };
 		BA8E177C26F3F7FE0083E053 /* SchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E177B26F3F7FE0083E053 /* SchedulerUITests.swift */; };
+		BA8E178A26F3F8250083E053 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BA8E178926F3F8250083E053 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA8E177726F3F7FE0083E053 /* SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E177B26F3F7FE0083E053 /* SchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerUITests.swift; sourceTree = "<group>"; };
 		BA8E177D26F3F7FE0083E053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8E178926F3F8250083E053 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		BA8E174D26F3F7FD0083E053 = {
 			isa = PBXGroup;
 			children = (
+				BA8E178926F3F8250083E053 /* .gitignore */,
 				BA8E175826F3F7FD0083E053 /* Scheduler */,
 				BA8E176F26F3F7FE0083E053 /* SchedulerTests */,
 				BA8E177A26F3F7FE0083E053 /* SchedulerUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8E178A26F3F8250083E053 /* .gitignore in Resources */,
 				BA8E176626F3F7FE0083E053 /* LaunchScreen.storyboard in Resources */,
 				BA8E176326F3F7FE0083E053 /* Assets.xcassets in Resources */,
 				BA8E176126F3F7FD0083E053 /* Main.storyboard in Resources */,
