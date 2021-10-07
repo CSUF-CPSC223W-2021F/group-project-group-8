@@ -10,4 +10,7 @@ import Foundation
 
 struct Account {
     // add more code here
+    var username: String
+    var password: String
+    var email: String
 }
