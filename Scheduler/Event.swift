@@ -13,9 +13,9 @@ struct EventStruct {
     var date: String = ""
     var time: String = ""
     
-    func makeEvent(eventName:String, location:String, date:String, time:String) -> String{
+    func makeEvent() -> String{
         
-        var event = "Event name: \(eventName)\n We will be meeting at \(location) on \(date) at \(time)"
+        let event = "Event name: \(eventName)\n We will be meeting at \(location) on \(date) at \(time)"
         return event
     }
 }
