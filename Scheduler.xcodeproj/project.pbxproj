@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4E1E982746726400FEDFFD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E1E972746726400FEDFFD /* Event.swift */; };
 		BA8E175A26F3F7FD0083E053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E175926F3F7FD0083E053 /* AppDelegate.swift */; };
 		BA8E175C26F3F7FD0083E053 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E175B26F3F7FD0083E053 /* SceneDelegate.swift */; };
-		BA8E175E26F3F7FD0083E053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E175D26F3F7FD0083E053 /* ViewController.swift */; };
+		BA8E175E26F3F7FD0083E053 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E175D26F3F7FD0083E053 /* EventListViewController.swift */; };
 		BA8E176126F3F7FD0083E053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8E175F26F3F7FD0083E053 /* Main.storyboard */; };
 		BA8E176326F3F7FE0083E053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8E176226F3F7FE0083E053 /* Assets.xcassets */; };
 		BA8E176626F3F7FE0083E053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8E176426F3F7FE0083E053 /* LaunchScreen.storyboard */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA4E1E972746726400FEDFFD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		BA8E175626F3F7FD0083E053 /* Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E175926F3F7FD0083E053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA8E175B26F3F7FD0083E053 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA8E175D26F3F7FD0083E053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA8E175D26F3F7FD0083E053 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
 		BA8E176026F3F7FD0083E053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA8E176226F3F7FE0083E053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA8E176526F3F7FE0083E053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -102,9 +104,10 @@
 		BA8E175826F3F7FD0083E053 /* Scheduler */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E1E972746726400FEDFFD /* Event.swift */,
 				BA8E175926F3F7FD0083E053 /* AppDelegate.swift */,
 				BA8E175B26F3F7FD0083E053 /* SceneDelegate.swift */,
-				BA8E175D26F3F7FD0083E053 /* ViewController.swift */,
+				BA8E175D26F3F7FD0083E053 /* EventListViewController.swift */,
 				BA8E175F26F3F7FD0083E053 /* Main.storyboard */,
 				BA8E176226F3F7FE0083E053 /* Assets.xcassets */,
 				BA8E176426F3F7FE0083E053 /* LaunchScreen.storyboard */,
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8E175E26F3F7FD0083E053 /* ViewController.swift in Sources */,
+				BA4E1E982746726400FEDFFD /* Event.swift in Sources */,
+				BA8E175E26F3F7FD0083E053 /* EventListViewController.swift in Sources */,
 				BA8E175A26F3F7FD0083E053 /* AppDelegate.swift in Sources */,
 				BA8E175C26F3F7FD0083E053 /* SceneDelegate.swift in Sources */,
 			);
@@ -370,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SNY2XU6R6;
 				INFOPLIST_FILE = Scheduler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SNY2XU6R6;
 				INFOPLIST_FILE = Scheduler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
