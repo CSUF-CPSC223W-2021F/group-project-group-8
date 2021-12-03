@@ -151,7 +151,7 @@
         <!--Home View Controller-->
         <scene sceneID="oF4-K2-cmo">
             <objects>
-                <viewController id="gaa-cS-pJZ" customClass="HomeViewController" customModule="Scheduler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="gaa-cS-pJZ" customClass="HomeViewController" customModule="Scheduler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CyL-oe-2vs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,8 +209,11 @@
                                             <color key="titleColor" systemColor="systemBackgroundColor"/>
                                             <color key="titleShadowColor" systemColor="linkColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="5A7-H2-4z9" eventType="touchUpInside" id="kjx-MW-3Xs"/>
+                                        </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Placeholder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZc-b4-aTy">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error Placeholder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZc-b4-aTy">
                                         <rect key="frame" x="0.0" y="222.5" width="334" height="12"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
@@ -236,7 +239,6 @@
                         <outlet property="errorLabel" destination="TZc-b4-aTy" id="G8e-y5-KwV"/>
                         <outlet property="logInButton" destination="oUs-Xj-kRc" id="qAA-uj-5vz"/>
                         <outlet property="passwordTextField" destination="dxX-ui-qvq" id="Xp7-Rp-6o3"/>
-                        <outlet property="userNameTextField" destination="KmI-sc-osp" id="Cwe-mk-H6j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QWE-Ix-LtB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

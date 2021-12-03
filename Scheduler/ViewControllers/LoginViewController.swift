@@ -33,7 +33,7 @@ class LoginViewController: UIViewController {
         
         if Utilities.isPasswordValid(cleanedPassword) == false {
             // Password isn't secure enoough
-            return ""
+            return "Invalid password or email pairing."
         }
         
         return nil
