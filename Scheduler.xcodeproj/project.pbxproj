@@ -12,7 +12,6 @@
 		5E0989CF2746EA6500DE9B54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0989CE2746EA6500DE9B54 /* LoginViewController.swift */; };
 		5E0989D22746EB7E00DE9B54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0989D12746EB7E00DE9B54 /* HomeViewController.swift */; };
 		5E41BC792746F73C00736CB0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41BC782746F73C00736CB0 /* Utilities.swift */; };
-		5E9763F5270F8CD70028C17E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9763F4270F8CD70028C17E /* Login.swift */; };
 		5EBA581F2759539200EB5B49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA581E2759539200EB5B49 /* GoogleService-Info.plist */; };
 		8FEC7D722759976D000809BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC7D712759976D000809BD /* Constants.swift */; };
 		973958EDF0B3DE2BC0338507 /* Pods_Scheduler_SchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F353A28BF22AF3E7427DBA /* Pods_Scheduler_SchedulerUITests.framework */; };
@@ -51,7 +50,6 @@
 		5E0989CE2746EA6500DE9B54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5E0989D12746EB7E00DE9B54 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E41BC782746F73C00736CB0 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		5E9763F4270F8CD70028C17E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		5EBA581E2759539200EB5B49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		769CDCB275442DE5DA615FC7 /* Pods-Scheduler-SchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler-SchedulerUITests.release.xcconfig"; path = "Target Support Files/Pods-Scheduler-SchedulerUITests/Pods-Scheduler-SchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C70194C3037348F5CFE844C /* Pods-Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler.release.xcconfig"; path = "Target Support Files/Pods-Scheduler/Pods-Scheduler.release.xcconfig"; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 				BA8E176226F3F7FE0083E053 /* Assets.xcassets */,
 				BA8E176426F3F7FE0083E053 /* LaunchScreen.storyboard */,
 				BA8E176726F3F7FE0083E053 /* Info.plist */,
-				5E9763F4270F8CD70028C17E /* Login.swift */,
 			);
 			path = Scheduler;
 			sourceTree = "<group>";
@@ -455,7 +452,6 @@
 				BA8E175C26F3F7FD0083E053 /* SceneDelegate.swift in Sources */,
 				5E0989D22746EB7E00DE9B54 /* HomeViewController.swift in Sources */,
 				5E41BC792746F73C00736CB0 /* Utilities.swift in Sources */,
-				5E9763F5270F8CD70028C17E /* Login.swift in Sources */,
 				8FEC7D722759976D000809BD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
