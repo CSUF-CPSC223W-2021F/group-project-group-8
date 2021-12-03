@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		5E41BC792746F73C00736CB0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41BC782746F73C00736CB0 /* Utilities.swift */; };
 		5E9763F5270F8CD70028C17E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9763F4270F8CD70028C17E /* Login.swift */; };
 		5EBA581F2759539200EB5B49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EBA581E2759539200EB5B49 /* GoogleService-Info.plist */; };
+		8FEC7D722759976D000809BD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC7D712759976D000809BD /* Constants.swift */; };
 		973958EDF0B3DE2BC0338507 /* Pods_Scheduler_SchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F353A28BF22AF3E7427DBA /* Pods_Scheduler_SchedulerUITests.framework */; };
 		B5220D5225373F8708639089 /* Pods_Scheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6D84E458296061638509A0 /* Pods_Scheduler.framework */; };
 		BA8E175A26F3F7FD0083E053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E175926F3F7FD0083E053 /* AppDelegate.swift */; };
@@ -55,6 +56,7 @@
 		769CDCB275442DE5DA615FC7 /* Pods-Scheduler-SchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler-SchedulerUITests.release.xcconfig"; path = "Target Support Files/Pods-Scheduler-SchedulerUITests/Pods-Scheduler-SchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7C70194C3037348F5CFE844C /* Pods-Scheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scheduler.release.xcconfig"; path = "Target Support Files/Pods-Scheduler/Pods-Scheduler.release.xcconfig"; sourceTree = "<group>"; };
 		8D6D84E458296061638509A0 /* Pods_Scheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC7D712759976D000809BD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		934E1CD4A3E1BA3A48C0340C /* Pods-SchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SchedulerTests.debug.xcconfig"; path = "Target Support Files/Pods-SchedulerTests/Pods-SchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BA8E175626F3F7FD0083E053 /* Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8E175926F3F7FD0083E053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,7 +127,6 @@
 				934E1CD4A3E1BA3A48C0340C /* Pods-SchedulerTests.debug.xcconfig */,
 				D577B6CC1A07202897D6ADFF /* Pods-SchedulerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				5E41BC782746F73C00736CB0 /* Utilities.swift */,
+				8FEC7D712759976D000809BD /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -454,6 +456,7 @@
 				5E0989D22746EB7E00DE9B54 /* HomeViewController.swift in Sources */,
 				5E41BC792746F73C00736CB0 /* Utilities.swift in Sources */,
 				5E9763F5270F8CD70028C17E /* Login.swift in Sources */,
+				8FEC7D722759976D000809BD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
