@@ -55,7 +55,7 @@ class SignupViewController: UIViewController {
     
     func transitionToHome(){
         // To change root view controller, you need to set a Storyboard ID and create a new instance and swap out the root
-        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        let homeViewController = storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? EventListViewController
         
         view.window?.rootViewController = homeViewController
         view.window?.makeKeyAndVisible()
